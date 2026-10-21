@@ -1,4 +1,3 @@
-const prompt = require('prompt-sync')();
 
 console.log(`Hola!`)
 console.log(`Benvingut a JavaScript`)
