@@ -1,9 +1,9 @@
 const prompt = require('prompt-sync')();
-let bytes = Number(prompt(`Insertar numero de bytes: `));
+const bytes = Number(prompt(`Insertar numero de bytes: `));
 
-let kilobytes = bytes / 1024;
-let megabytes = kilobytes / 1024;
-let gigabytes = megabytes / 1024;
+const kilobytes = bytes / 1024;
+const megabytes = kilobytes / 1024;
+const gigabytes = megabytes / 1024;
 
 console.log(`Convertimos Bytes a --> KB, MB, G`);
 
