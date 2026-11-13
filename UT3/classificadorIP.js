@@ -10,9 +10,7 @@ let ip = (`${oct1}.${oct2}.${oct3}.${oct4}`)
 
 if ((oct1 >= 0 && oct1 <= 255) && (oct2 >= 0 && oct2 <= 255) && (oct3 >= 0 && oct3 <= 255) && (oct4 >= 0 && oct4 <= 255)) {
     console.log(`Direccion IP: ${ip}`)
-} else {
-    console.log("La direccion no es valida: cada octeto tiene que estar entre 0 y 255")
-}
+
 
 let clase
 if (oct1 === 0) {
@@ -54,3 +52,7 @@ if (oct1 === 10 || oct1 === 172 && (oct2 >=16 && oct2 <= 31) || oct1 === 192 && 
     tipo = "Tipo: publica"
 }
 console.log(tipo)
+
+} else {
+    console.log("La direccion no es valida: cada octeto tiene que estar entre 0 y 255")
+}
