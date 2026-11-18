@@ -1,6 +1,6 @@
 const prompt = require('prompt-sync')()
 
-
+const EMPRESA = "NetLlevant"
 const AÑO = 2026
 
 let pc = prompt("nombre del euipo")
